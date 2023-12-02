@@ -1,0 +1,55 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    article {
+        width: 100%;
+    }
+
+    article h2 {
+        width: 100% !important;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .grid-post-tail {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    .post-tail,
+    .container>hr,
+    .container-flex {
+        width: 90%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    article h2 {
+        width: 100% !important;
+    }
+
+    aside {
+        display: none;
+    }
+
+
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+    .grid-post-tail {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+    .grid-post-tail {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,29 @@
+@media (max-width: 58.125em) {
+    article {
+        width: 500px;
+    }
+
+    .tabs {
+        flex-direction: column;
+    }
+
+    .success-order {
+        font-size: 0.8rem;
+        left: 300px;
+    }
+}
+
+@media (max-width: 33.5em) {
+    article {
+        width: 90%;
+    }
+
+    .success-order {
+        position: static;
+    }
+
+    .btn-event {
+        display: flex;
+        flex-direction: column;
+    }
+}

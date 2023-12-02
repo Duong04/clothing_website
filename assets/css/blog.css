@@ -1,0 +1,242 @@
+.container {
+    margin: 50px 0;
+}
+
+.container>h3 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container-flex {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 70%;
+    height: auto;
+}
+
+.post-main {
+    width: 100%;
+}
+
+.post-main-img img {
+    width: 100%;
+}
+
+.post-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.post-main-text>h3 {
+    color: var(--white-color);
+    background-color: #eec7bc;
+    padding: 5px 9px;
+    font-size: 1.0rem;
+    font-family: normal normal;
+    margin-top: 10px;
+}
+
+.post-main-text>h4 {
+    font-size: 2.0rem !important;
+    font-weight: 100;
+    font-family: normal normal;
+}
+
+.description {
+    text-align: justify;
+}
+
+.post-date i {
+    color: #999898;
+    font-weight: 600;
+    font-family: normal normal;
+}
+
+.container-flex hr {
+    margin: 40px 0 20px;
+}
+
+.grid-post {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.grid-post-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid-post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.grid-post-text>h3 {
+    padding: 5px;
+    width: 100px;
+    margin: auto;
+    color: var(--white-color);
+    background-color: #eec7bc;
+    font-size: 0.9rem;
+    font-family: normal normal;
+    margin-top: 10px;
+}
+
+.grid-post-text>h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: normal normal;
+}
+
+.grid-post-text .description {
+    height: 80px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.grid-post-text .description::-webkit-scrollbar {
+    display: none;
+}
+
+.grid-post-text .description span {
+    font-size: 0.9rem !important;
+}
+/* ---------------------------- */
+
+aside {
+    width: 25%;
+    height: auto;
+}
+
+.aside-item:first-child {
+    margin-top: 0;
+}
+
+.aside-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.aside-title {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: var(--white-color);
+}
+
+.aside-title::before {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000;
+    bottom: -8px;
+    content: "";
+    height: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.aside-content-img img {
+    width: 100%;
+}
+
+.aside-content-text p {
+    margin-top: 10px;
+    text-align: justify;
+    font: normal normal 14px Playfair Display;
+}
+
+.aside-content-text p:first-child {
+    font-size: 1.1rem;
+}
+
+.aside-content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.aside-content-item {
+    height: 70px;
+    border: 1px solid #ccc;
+}
+
+.aside-content-item a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.aside-content-item i {
+    font-size: 1.2rem;
+}
+
+.aside-content-item span {
+    font: normal normal 14px Playfair Display;
+}
+
+.aside-menu a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    transition: all ease 0.3s;
+}
+
+.aside-menu a:hover {
+    padding-left: 10px;
+}
+
+/* post taiil */
+.container>hr {
+    width: 85%;
+    margin: 50px auto 10px;
+}
+
+.container>h3:last-child {
+    margin-top: 20px;
+}
+
+.post-tail {
+    width: 85%;
+    margin: auto;
+}
+
+.grid-post-tail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 20px;
+}
+
+.grid-post-item h4 {
+    font-size: 1.2rem !important;
+}

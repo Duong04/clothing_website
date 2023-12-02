@@ -1,0 +1,307 @@
+/* article */
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 55%;
+    height: auto;
+    padding-top: 50px;
+    background-color: var(--white-color);
+}
+
+.content-article{
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.content-article h5{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 1.0rem;
+}
+
+.my-info{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.my-info input{
+    padding-left: 10px;
+    border: none;
+    border: 2px solid #ccc;
+}
+
+.my-info input:focus{
+    outline: none;
+    border: 2px solid var(--green-color);
+}
+
+.address,
+.name{
+    width: 100%;
+}
+
+.email{
+    width: 60%;
+}
+
+.phone{
+    width: 35%;
+}
+
+.address input,
+.phone input,
+.email input,
+.name input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.ship-method{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ship-price{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ship-price span{
+    margin: 0 15px;
+}
+
+.pay-method{
+    width: 100%;
+    margin-top: 20px
+}
+
+.pay-item{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.pay-bank,
+.cod-pay{
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.cod-item{
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-pay{
+    height: auto;
+    font-size: 1.0rem;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    background-color: #f3f3f3;
+    animation: anima linear 0.4s;
+    -webkit-animation: anima linear 0.4s;
+}
+
+.text-pay p{
+    padding-top: 15px;
+}
+
+.pay-bank{
+    border: none;
+}
+
+.info-bank{
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: #f3f3f3;
+    animation: anima linear 0.4s;
+    -webkit-animation: anima linear 0.4s;
+}
+
+.info-bank p{
+    padding-top: 10px;
+}
+
+.btn-click{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-click a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: var(--green-color);
+}
+
+.btn-click a:hover{
+    font-weight: 550;
+}
+
+.btn-click button{
+    border: none;
+    font-size: 1.0rem;
+    padding: 15px 20px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-click button:hover{
+    opacity: 0.8;
+}
+
+aside{
+    width: 45%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.show-cart{
+    color: var(--main-color);
+    display: none;
+}
+
+.product{
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.product-item{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-img{
+    width: 15%;
+    position: relative;
+}
+
+.product-img span{
+    position: absolute;
+    top: -7px;
+    right: -3px;
+    font-size: 0.7rem;
+    padding: 4px 7px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 50%;
+}
+
+.product-img img{
+    width: 100%;
+}
+
+.name-product{
+    width: 100%;
+}
+
+.name-product h4{
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.price{
+    width: 20%;
+    font-size: 0.9rem;
+    color: var(--red-color);
+}
+
+.voucher{
+    width: 100%;
+    margin-left: 30px;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.voucher form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voucher input{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.voucher input:focus{
+    outline: none;
+    border: 2px solid var(--green-color);
+}
+
+.voucher button{
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sum-price,
+.prepare{
+    width: 100%;
+    margin-left: 30px;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.price-ship,
+.price-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sum-price{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+

@@ -1,0 +1,87 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    .form-register {
+        width: 500px;
+        justify-content: center;
+    }
+
+    .form-img {
+        display: none;
+    }
+    
+    .form-main {
+        width: 90%;
+    }
+
+    .confirm-submit,
+    .fb-gg,
+    .or,
+    .btn-register,
+    .form-item {
+        width: 90%;
+    }
+
+    .or span:nth-child(odd) {
+        width: 170px;
+    }
+
+    .btn-fb {
+        width: 190px;
+    }
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    .form-img {
+        display: none;
+    }
+    
+    .form-main {
+        width: 90%;
+    }
+
+    .confirm-submit,
+    .fb-gg,
+    .or,
+    .btn-register,
+    .form-item {
+        width: 90%;
+    }
+
+    .or span:nth-child(odd) {
+        width: 40%;
+    }
+
+    .btn-fb {
+        width: 48%;
+    }
+
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+    .form-register {
+        width: 500px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 35.3125em) {
+    .form-register {
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+    article {
+        margin: 30px 0;
+    }
+    
+    .form-register {
+        width: 100%;
+        box-shadow: none;
+    }
+}

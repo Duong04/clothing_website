@@ -1,0 +1,100 @@
+article {
+    width: 900px;
+    margin: 50px auto;
+}
+
+article>h3 {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.tabs {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.tab.active {
+    border-bottom: 2px solid var(--green-color);
+    background-color: #d8f5e6;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.order {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.success-order {
+    color: #00ae3d;
+    position: absolute;
+    left: 350px;
+    top: 12px;
+    font-size: 1.2rem;
+}
+
+.order h3 {
+    color: #007BFF;
+}
+
+.order p {
+    margin: 8px 0;
+}
+
+.order a {
+    color: #007BFF;
+}
+
+.btn-event {
+    display: flex;
+    gap: 20px;
+}
+
+.no-order {
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.no-order img {
+    max-width: 160px;
+}

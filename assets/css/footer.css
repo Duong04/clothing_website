@@ -1,0 +1,126 @@
+/* footer */
+footer {
+    border-top: 3px solid #ccc;
+    margin-top: 30px;
+}
+
+.footer-content {
+    width: 85%;
+    padding: 40px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 32%;
+}
+
+.footer-content h4 {
+    margin: 10px 0;
+}
+
+.footer-left h2 {
+    font-weight: 600;
+}
+
+.footer-right {
+    width: 65%;
+}
+
+.footer-content li {
+    margin-top: 7px;
+}
+
+.footer-right-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.contact span,
+.contact a {
+    font-weight: 600;
+}
+
+.help {
+    width: 30%;
+}
+
+.shop-system {
+    width: 35%;
+}
+
+.shop-system ul:last-child {
+    margin-top: 20px;
+}
+
+.shop-system a:hover,
+.help a:hover {
+    font-weight: 600;
+}
+
+.footer-right-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-send-mail form {
+    width: 300px;
+    height: 35px;
+    border: 1px solid var(--black-color);
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-send-mail input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.05rem;
+    border-radius: 8px 0 0 8px;
+}
+
+.form-send-mail input:focus {
+    outline: none;
+}
+
+.form-send-mail button {
+    width: 15%;
+    height: 93%;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0.5px;
+}
+
+.form-send-mail button:hover {
+    opacity: 0.7;
+}
+
+.list-social {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.list-social a {
+    font-size: 1.5rem;
+}
+
+.copy-right {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+
+

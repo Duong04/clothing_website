@@ -1,0 +1,97 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    .footer-content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-left {
+        width: 400px;
+        margin-top: 25px;
+    }
+
+    .footer-right {
+        width: 800px;
+    }
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    .footer-right-bottom,
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .footer-content {
+        width: 90%;
+    }
+
+    .footer-left {
+        width: 400px;
+        margin-top: 25px;
+    }
+
+    .footer-right-top {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-right-top ul {
+        width: 340px;
+    }
+
+    .footer-right {
+        width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .copy-right {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+    .shop-system {
+        width: 50%;
+    }
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+
+    .footer-left {
+        width: 90%;
+    }
+
+    .footer-right {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .shop-system {
+        width: 100%;
+    }
+
+    .shop-system ul:first-child {
+        width: 100%;
+    }
+
+    .footer-right-top ul {
+        width: 100%;
+    }
+}
+
+@media (max-width: 21.4375em){
+    .form-send-mail form {
+        width: 100%;
+    }
+    .form-send-mail input {
+        font-size: 0.8rem;
+        width: 78%;
+    }
+
+    .form-send-mail button {
+        width: 18%;
+    }
+}

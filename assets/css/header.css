@@ -1,0 +1,365 @@
+header {
+    width: 100%;
+}
+
+.topbar-des {
+    width: 100%;
+    height: 40px;
+    font-size: 0.9rem;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main {
+    background-color: var(--white-color);
+}
+
+.header-child-top {
+    width: 85%;
+    padding: 10px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-fixed {
+    width: 100%;
+    position: fixed;
+    top: -100px;
+    z-index: 9999;
+    box-shadow: 0 0 10px #ccc;
+    transition: all 0.5s ease;
+}
+
+/* ---------------- */
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.bar-mobile {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.search-mobile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--green-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.search-mobile:hover {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.language img {
+    width: 35px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+  
+.input {
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    border: 2px solid var(--green-color);
+    padding-right: 40px;
+}
+  
+.input::placeholder,
+.input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+  
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: .2s linear;
+    color: var(--green-color);
+}
+  
+.icon:focus ~ .input,
+.input:focus {
+    border: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid var(--green-color);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.search-2 form,
+.search-2 h3{
+    width: 80%;
+    margin: 10px auto 0;
+}
+
+.search-2 form {
+    height: 45px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 21px;
+    position: relative;
+}
+
+.search-2 input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding-left: 14px;
+    border-radius: 21px 0 0 21px;
+}
+
+.search-2 input:focus {
+    outline: none;
+}
+
+.search-2 button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.search-2,
+.search-mobile2,
+.menu-mobile-item,
+.search-mobile,
+.bar-mobile,
+.menu-mobile {
+    display: none;
+}
+  
+.search {
+    width: auto;
+    position: relative;
+}
+
+.result-seach {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+
+.result {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 7px #ccc;
+    border-radius: 10px;
+}
+
+.result-search-item {
+    background-color: var(--white-color);
+}
+
+.result-search-item img {
+    width: 50px;
+}
+
+.result-search-item a {
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.result-2 {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 7px #ccc;
+    border-radius: 10px;
+}
+
+/* -------------------------- */
+.header-center {
+    text-align: center;
+}
+
+.header-center img {
+    max-width: 250px;
+    width: 100%;
+}
+/* ---------------------- */
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.header-right a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.0rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    transition: all ease 0.4s;
+}
+
+.accout img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header-right a:hover {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.cart {
+    position: relative;
+}
+
+.cart>span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    background-color: red;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -7px;
+    top: -13px;
+}
+
+/* ---------- menu -------------- */
+menu {
+    width: 85%;
+    margin: auto;
+}
+
+menu>ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+menu >ul >li >a {
+    display: block;
+    position: relative;
+    padding: 10px 5px;
+    font-size: 1.1rem;
+    color: var(--black-color) !important;
+}
+
+.menu-mobile-item a::before,
+.menu-child-2 a::before,
+.menu-child a::before,
+menu >ul >li >a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: var(--green-color);
+    color: var(--green-color);
+    height: 2.5px;
+    width: 0;
+    transition: all ease 0.4s;
+}
+
+.menu-child-2,
+.menu-child {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    border: 2px solid #ccc;
+    background-color: var(--white-color);
+    animation: upMove 0.4s ease;
+}
+
+.menu-child-2 a,
+.menu-child a {
+    position: relative;
+    display: block;
+    padding: 7px 17px;
+}
+
+.menu-mobile-item a:hover::before,
+.menu-child-2 a:hover::before,
+.menu-child a:hover::before,
+menu >ul >li >a:hover::before {
+    width: 100%;
+    color: var(--black-color) !important;
+}
+
+.menu-hv-2:hover .menu-child-2,
+.menu-hv:hover .menu-child {
+    display: block;
+    color: var(--black-color) !important;
+}
+
+ul {
+    padding: 0;
+}
+
+.menu_item-2 a {
+    font-size: 0.9rem;
+    padding-left: 40px !important;
+}
+
+.menu_item-2 {
+    display: none;
+}
+
+.visible {
+    display: block;
+    animation: leftMove 0.5s ease;
+    z-index: -1;
+}
+
+.defaut {
+    display: flex !important;
+    justify-content: space-between;
+}

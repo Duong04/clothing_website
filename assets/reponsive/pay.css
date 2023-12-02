@@ -1,0 +1,140 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    main{
+        background-color: var(--white-color);
+    }
+
+    .container{
+        width: 700px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .show-cart{
+        display: block;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    aside,
+    article{
+        width: 100%;
+    }
+
+    .hide-product{
+        display: none;
+    }
+
+    .show-product{
+        display: block;
+    }
+
+    .sum-price,
+    .prepare,
+    .voucher,
+    .product{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    main{
+        background-color: var(--white-color);
+    }
+
+    .container{
+        width: 90%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .show-cart{
+        display: block;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    aside,
+    article{
+        width: 100%;
+    }
+
+    .hide-product{
+        display: none;
+    }
+
+    .show-product{
+        display: block;
+    }
+
+    .info-bank,
+    .text-pay {
+        padding: 10px 5px;
+        height: auto;
+    }
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+    article{
+        justify-content: center;
+    }
+    
+    .sum-price,
+    .prepare,
+    .voucher,
+    .product{
+        width: 80%;
+        margin: auto;
+    }
+
+    .btn-click,
+    .pay-method,
+    .ship-method,
+    .my-info{
+        width: 90%;
+    }
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+    article{
+        justify-content: center;
+    }
+
+    .sum-price,
+    .prepare,
+    .voucher,
+    .product{
+        width: 90%;
+        margin: auto;
+    }
+
+    .btn-click,
+    .pay-method,
+    .ship-method,
+    .my-info{
+        width: 100%;
+    }
+
+    .ship-price {
+        min-height: 70px;
+        flex-wrap: wrap;
+    }
+
+    .my-info{
+        flex-direction: column;
+    }
+
+    .email,
+    .phone{
+        width: 100%;
+    }
+
+    .btn-click button {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,156 @@
+article {
+    margin: 50px 0;
+}
+
+article>h3 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-cart {
+    width: 700px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.flex h5 {
+    width: 200px;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+
+.img {
+    width: 100px;
+}
+
+.img img {
+    width: 100%;
+}
+
+/* pay */
+.table input {
+    width: 70px;
+    border: none;
+}
+
+.table input:focus {
+    outline: none;
+}
+
+.table button {
+    background-color: #00d672;
+    color: var(--white-color);
+    padding: 0 5px;
+    border: none;
+    border: 1px solid #00d672;
+    border-radius: 3px;
+}
+
+.pay-product{
+    width: 260px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.price-pay{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.price-pay>span{
+    margin-left: 10px;
+}
+
+.price-pay>p{
+    margin-right: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.btn-pay{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pay button,
+.btn-pay a{
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: 2px solid var(--green-color);
+    transition: all ease 0.5s;
+    color: #000;
+    background-color: var(--white-color);
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.btn-pay button:hover,
+.btn-pay a:hover{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+/* ---------------------- */
+.cart-empty{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-cart i{
+    font-size: 3.5rem;
+    color: var(--green-color);
+}
+
+.return-home a{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--green-color);
+    transition: all ease 0.5s;
+    color: var(--black-color);
+}
+
+.return-home a:hover{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.cart-far{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cart-product{
+    width: 870px;
+    height: auto;
+    box-shadow: 0 0 10px #ccc;
+    background-color: var(--white-color);
+}

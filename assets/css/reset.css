@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inclusive+Sans&family=Lato&family=Lobster&family=Open+Sans&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --green-color: #004230;
+    --white-color: #fff;
+    --black-color: #000;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+li {
+    list-style: none;
+}

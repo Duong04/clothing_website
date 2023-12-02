@@ -1,0 +1,38 @@
+article {
+    margin: 50px 0;
+}
+
+article>h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.content-page>h3 {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.content-page>h4 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.container hr {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.map h3 {
+    margin: 20px 0;
+}
+
+.map iframe {
+    width: 100%;
+}

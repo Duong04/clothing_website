@@ -1,0 +1,66 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    .profile {
+        width: 90%;
+    }
+
+    .profile form {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .avatar {
+        width: 100%;
+        box-shadow: none;
+        position: relative;
+    }
+
+    .logout {
+        height: auto;
+        position: absolute;
+        top: -25px;
+        right: 20px;
+    }
+
+    .form-item input {
+        width: 100%;
+        height: 35px;
+        padding-left: 8px;
+        border: 2px solid #ccc;
+    }
+    
+    .form-item input:focus {
+        outline: none;
+        border: 2px solid #2ebaae;
+    }
+    
+    .btn-update {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+  
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+    .logout a {
+        padding: 7px 15px;
+        font-size: 0.8rem;
+    }
+
+    .info-user {
+        width: 80%;
+    }
+}

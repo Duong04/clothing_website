@@ -1,0 +1,121 @@
+/* Tablet */
+@media  (min-width: 48em) and (max-width: 63.9375em) {
+    .list-img {
+        width: 54%;
+    }
+
+    #main-carousel .splide__slide img {
+        width: 100%;
+    }
+
+    .product-content-desc {
+        width: 43%;
+    }
+
+    #thumbnail-carousel .splide__list {
+        justify-content: flex-start;
+    } 
+}
+
+/* all mobile */
+@media (max-width: 47.9375em){
+    .container-fluid {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .list-img {
+        width: 100%;
+    }
+
+    .product-content-desc {
+        width: 100%;
+    }
+
+    .add-cart, .add-favorite {
+        width: 70%;
+        border-width: 1px;
+    }
+
+    .form-comment form {
+        max-width: 100%;
+    }
+
+    #main-carousel .splide__slide img {
+        width: 100%;
+    }
+
+    .comment {
+        width: 100%;
+    }
+
+    .info-user-item-1 {
+        min-width: 0;
+    }
+
+}
+
+/* Mobile */
+@media  (min-width: 30em) and (max-width: 47.9375em) {
+    .element-total {
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .quantity {
+        width: 300px;
+        height: 45px;
+    }
+
+    .quantity button {
+        width: 20%;
+        height: 100%;
+    }
+
+    .quantity input {
+        height: 100%;
+    }
+}
+
+@media (max-width:37.5em) {
+    #thumbnail-carousel .splide__list {
+        width: 100% !important;
+        justify-content: flex-start;
+    } 
+}
+
+/* Mobile small */
+@media (max-width: 29.9375em){
+    .element-total {
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .info-promotion2 {
+        margin-top: 10px;
+    }
+
+    .add-cart, .add-favorite {
+        width: 90%;
+    }
+
+    .add-favorite {
+        margin-top: 20px;
+    }
+
+    .add-cart button, .add-favorite button {
+        padding: 12px 7px;
+        height: auto;
+    }
+
+    .add-cart span, .add-favorite button {
+        font-size: 0.9rem;
+    }
+}
+
