@@ -13,6 +13,10 @@
     
 }
 
+body {
+    background-color: var(--white-color);
+}
+
 a {
     text-decoration: none;
     color: var(--black-color);
