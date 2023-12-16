@@ -7,7 +7,7 @@
         </div>
         <div class="mb-3">
             <label for="name-product" class="form-label">Tên sản phẩm</label>
-            <input required placeholder="Tên danh mục" name="product_name" type="text" class="form-control border-2" id="name-product">
+            <input required placeholder="Tên sản phẩm" name="product_name" type="text" class="form-control border-2" id="name-product">
         </div>
         <div class="mb-3">
             <label for="formFile" class="form-label">Ảnh sản phẩm</label>

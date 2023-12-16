@@ -1,3 +1,12 @@
+        <?php 
+        if (isset($_SESSION['user_id'])) {
+            $row = selectUsers("SELECT * FROM users WHERE user_id =".$_SESSION['user_id']);
+            if ($row['status'] == 'Vô hiệu hóa') {
+                session_unset();
+                header("Location: ../accounts/login.php");
+            }
+        }
+        ?>
         <header>
             <div class="topbar-des">Miễn phí ship giao hàng toàn quốc với đơn hàng trên 500.000đ</div>
             <div class="header-main">

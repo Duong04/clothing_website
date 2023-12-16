@@ -12,7 +12,6 @@
             $quantity = $_POST['quantity-2'];
             $product_id = $_POST["product_id-2"];
         
-            // Tìm kiếm sản phẩm trong giỏ hàng và cập nhật số lượng
             foreach ($_SESSION['cart'] as $key => $cart_item) {
                 if ($cart_item['product_id'] == $product_id) {
                     $_SESSION['cart'][$key]['quantity'] = $quantity;
@@ -60,6 +59,7 @@
                 $_SESSION['cart'][] = $cart_item;
             }
         }
+        
         $previous_page = $_SERVER['HTTP_REFERER'];
         header('Location: ' . $previous_page);
         exit();

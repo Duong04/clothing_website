@@ -39,10 +39,10 @@
             $stmt->execute();
 
             return true;
-          } catch(PDOException $e) {
+        } catch(PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
             return false;
-          }
+        }
 
     }
 

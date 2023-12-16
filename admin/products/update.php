@@ -1,5 +1,4 @@
 <h4>Cập nhật sản phẩm</h4>
-
 <form action="index.php?action=handle-productC" id="yourFormId" method="POST" enctype="multipart/form-data">
     <div class="grid">
         <div class="mb-3">

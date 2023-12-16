@@ -33,7 +33,7 @@ searchBox_2.setAttribute('autocomplete', 'off');
 
 // ---------------------------------------
 $(document).ready(function() {
-
+    
     $('#search').on('input', function() {
         var searchTerm = $(this).val();
         $.ajax({
@@ -48,14 +48,14 @@ $(document).ready(function() {
 
     $('#search').on('blur', function() {
         setTimeout(function() {
-            if (!$('#search_results').is(':focus')) {
+            if (!$('#search-results').is(':focus')) {
                 $('#search-results').hide();
             }
         }, 200); 
     });
 
 
-    $('#search_result').on('click', function() {
+    $('#search-result').on('click', function() {
         $('#search-results').show();
     });
 
@@ -80,14 +80,14 @@ $(document).ready(function() {
 
     $('#search-2').on('blur', function() {
         setTimeout(function() {
-            if (!$('#search_results').is(':focus')) {
+            if (!$('#search-results').is(':focus')) {
                 $('#search-results-2').hide();
             }
         }, 200); 
     });
 
 
-    $('#search_result').on('click', function() {
+    $('#search-result').on('click', function() {
         $('#search-results-2').show();
     });
 

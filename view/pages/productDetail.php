@@ -355,13 +355,13 @@
             });
         }
 
-        var form2 = document.querySelector('.add-favorite'); 
+        var formHeart = document.querySelector('.add-favorite'); 
 
-        form2.addEventListener('submit', function (event) {
+        formHeart.addEventListener('submit', function (event) {
             event.preventDefault(); 
             addHeart();
             setTimeout(function() {
-                form.submit(); 
+                formHeart.submit(); 
             }, 1000); 
         });
 
