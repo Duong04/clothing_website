@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             ?>
 
             <div class="result-search-item">
-                <a id="search_result" href="./productDetail.php?product_id=<?= $list['product_id'] ?>">
+                <a id="search_result" href="../view/pages/productDetail.php?product_id=<?= $list['product_id'] ?>">
                     <img src="<?= $list['product_image'] ?>" alt="">
                     <div class="name-price">
                         <h5>

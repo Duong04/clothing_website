@@ -7,7 +7,7 @@
   $startOfDay = $today . ' 00:00:00';
   $endOfDay = $today . ' 23:59:59';
   $sql = "SELECT SUM(total_amount) AS totalAmount FROM invoices WHERE invoice_date BETWEEN '$startOfDay' AND '$endOfDay' AND order_status = 'Hoàn tất đơn hàng'";
-  $todayResult = selectInvoice($sql);
+  $todayResult = selectInvoice($sql);  
   $totalToday = number_format($todayResult['totalAmount'], 0, ',', '.');
   ?>
   <div class="grid-statistical-item">
